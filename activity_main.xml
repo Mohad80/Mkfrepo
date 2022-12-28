@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:translationX="105dp"
+        android:translationY="40dp"
+        app:srcCompat="@drawable/_69953_purse_dollars_finance_money_pay_icon"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="۱۵۵dp"
+        tools:layout_editor_absoluteY="۸۷dp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/bmitra_0"
+        android:hint="@string/txt1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#2B9348"
+        android:textColorHint="#757575"
+        android:textSize="20sp"
+        android:translationY="265dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteY="۳۵۵dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:translationX="150dp"
+        android:translationY="322dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="۱۷۱dp"
+        tools:layout_editor_absoluteY="۳۵۲dp">
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmitra_0"
+            android:text="@string/txt6"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmitra_0"
+            android:text="@string/txt2"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmitra_0"
+            android:text="@string/txt3"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmitra_0"
+            android:text="@string/txt4"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmitra_0"
+            android:text="@string/txt5"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmitra_0"
+            android:text="@string/txt7"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/bmitra_0"
+        android:text="@string/btn1"
+        android:textSize="24sp"
+        android:translationY="620dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="۵۵۴dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
